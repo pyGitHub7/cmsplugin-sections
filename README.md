@@ -4,21 +4,21 @@ cmsplugin-sections
 This is a plugin "system" (really just two) for making "single-page scroller"
 websites super easy.
 
-It provides a Section Container plugin and a generic Section plugin out of the
+It provides a section Container plugin and a generic Section plugin out of the
 box. Section Containers allow Section plugins to be added inside them. Section
 plugins will allow anything inside them, but have some basic configuration of
 their own, namely:
 
-1. Title - The title of the section;
+1. Title : The title of the section;
 
-2. Show title - If unchecked, will not emit a heading for the section;
+2. Show title : If unchecked, will not emit a heading for the section;
 
-3. Label - A menu title for the section. This is by default identical to the
+3. Label : A menu title for the section. This is by default identical to the
    title, but allows for a menu label different than the section title;
 
-4. Show in menu - If unchecked, this section will not appear in the menu.
+4. Show in menu : If unchecked, this section will not appear in the menu.
 
-5. Slug - a slug. If left blank, will be derived from the title.
+5. Slug : a slug. If left blank, will be derived from the title.
 
 
 The Section Container will render all of its children plugins, but first, it
